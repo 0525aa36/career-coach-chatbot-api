@@ -5,8 +5,13 @@
 ## 주요 기능
 
 ### AI 기반 맞춤형 서비스
+<img width="2561" height="1347" alt="localhost_3000_ (2)" src="https://github.com/user-attachments/assets/1f51d0e7-8a50-4090-b6c6-00447a1bacd3" />
 - **인터뷰 질문 생성**: 이력서 정보를 바탕으로 한 개인화된 면접 질문
+- <img width="2538" height="1881" alt="localhost_3000_ (3)" src="https://github.com/user-attachments/assets/106604a6-6130-4f49-902e-12149a4c80ef" />
+
 - **학습 경로 추천**: 경력과 기술 스택에 맞는 맞춤형 학습 로드맵
+- <img width="2538" height="1701" alt="localhost_3000_ (4)" src="https://github.com/user-attachments/assets/1a7509f3-1816-4781-b526-454902b0be40" />
+
 - **실시간 AI 분석**: Google Gemini AI를 활용한 지능형 분석
 
 ### 기술 스택
