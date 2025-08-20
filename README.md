@@ -1,22 +1,22 @@
-# 🎯 이력서 기반 맞춤형 커리어 코치 챗봇 API
+# 이력서 기반 맞춤형 커리어 코치 챗봇 API
 
 이력서 정보를 바탕으로 개인화된 인터뷰 질문과 학습 경로를 생성하는 AI 기반 커리어 코치 애플리케이션입니다.
 
-## 🚀 주요 기능
+## 주요 기능
 
-### ✨ AI 기반 맞춤형 서비스
+### AI 기반 맞춤형 서비스
 - **인터뷰 질문 생성**: 이력서 정보를 바탕으로 한 개인화된 면접 질문
 - **학습 경로 추천**: 경력과 기술 스택에 맞는 맞춤형 학습 로드맵
 - **실시간 AI 분석**: Google Gemini AI를 활용한 지능형 분석
 
-### 🛠 기술 스택
+### 기술 스택
 - **Backend**: Java 17, Spring Boot 3.x, Spring Data JPA
 - **Frontend**: React 18, TypeScript, Material-UI
 - **AI**: Google Gemini AI API
 - **Database**: H2 (개발), MySQL (운영)
 - **Architecture**: DDD (Domain-Driven Design), Layered Architecture
 
-## 📋 프로젝트 구조
+## 프로젝트 구조
 
 ```
 SeokJaemin/
@@ -37,7 +37,7 @@ SeokJaemin/
 └── docs/              # 프로젝트 문서
 ```
 
-## 🚀 시작하기
+## 시작하기
 
 ### Prerequisites
 - Java 17+
@@ -87,7 +87,7 @@ npm start
 
 프론트엔드는 `http://localhost:3000`에서 실행됩니다.
 
-## 📖 API 문서
+## API 문서
 
 ### 이력서 관리
 - `GET /api/resumes` - 모든 이력서 조회
@@ -100,7 +100,7 @@ npm start
 - `POST /api/resumes/{id}/interview-questions` - 맞춤형 인터뷰 질문 생성
 - `POST /api/resumes/{id}/learning-path` - 맞춤형 학습 경로 생성
 
-## 🔧 설정
+## 설정
 
 ### application.properties
 ```properties
@@ -121,7 +121,7 @@ spring.jpa.hibernate.ddl-auto=create-drop
 spring.jpa.show-sql=true
 ```
 
-## 🎯 주요 기능 설명
+## 주요 기능 설명
 
 ### 1. 이력서 기반 맞춤형 인터뷰 질문
 - 지원자의 경력, 기술 스택, 프로젝트 경험을 분석
@@ -138,7 +138,7 @@ spring.jpa.show-sql=true
 - Chain of Thought와 Few-shot Learning 적용
 - 지속적인 학습을 통한 응답 품질 향상
 
-## 🏗 아키텍처
+## 아키텍처
 
 ### Backend Architecture
 - **Controller Layer**: REST API 엔드포인트 제공
@@ -152,13 +152,13 @@ spring.jpa.show-sql=true
 - **AIInterviewService**: 인터뷰 질문 생성 서비스
 - **AILearningPathService**: 학습 경로 생성 서비스
 
-## 🔒 보안
+## 보안
 
 - API 키는 환경 변수로 관리
 - CORS 설정으로 프론트엔드 접근 제한
 - 입력 데이터 검증 및 예외 처리
 
-## 📝 개발 가이드
+## 개발 가이드
 
 ### 코드 컨벤션
 - Java: Google Java Style Guide 준수
@@ -174,24 +174,6 @@ spring.jpa.show-sql=true
 cd frontend
 npm test
 ```
-
-## 🤝 기여하기
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 라이선스
-
-이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
-
-## 📞 문의
-
-프로젝트에 대한 문의사항이 있으시면 이슈를 생성해 주세요.
-
----
 
 **개발자**: SeokJaemin  
 **프로젝트**: 이력서 기반 맞춤형 커리어 코치 챗봇 API  
